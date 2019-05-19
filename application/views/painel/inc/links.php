@@ -1,8 +1,8 @@
   <!-- Custom fonts for this template-->
-  <?php echo link_tag('vendor/fontawesome-free/css/all.min.css'); ?>
+  <?php echo link_tag('assets/dist/fontawesome-free/css/all.min.css'); ?>
 
   <!-- Page level plugin CSS-->
-  <?php echo link_tag('vendor/datatables/dataTables.bootstrap4.css'); ?>
+  <?php echo link_tag('assets/dist/datatables/dataTables.bootstrap4.css'); ?>
 
   <!-- Custom styles for this template-->
 

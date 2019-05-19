@@ -1,8 +1,8 @@
  <!-- jQuery -->
- <script src="vendor/jquery/jquery.min.js"></script>
+ <script src="assets/dist/jquery/jquery.min.js"></script>
 
 <!-- Bootstrap Core JavaScript -->
-<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<script src="assets/dist/bootstrap/js/bootstrap.min.js"></script>
 <script src="assets/js/front/script.js"></script>
 
 <!-- Plugin JavaScript -->
