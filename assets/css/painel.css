@@ -1,0 +1,12 @@
+
+.card img.icone {
+    width: auto;
+    max-width: 170px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.breadcrumb {
+    background-color: #FFF !important;
+}
