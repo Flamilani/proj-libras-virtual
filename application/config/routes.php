@@ -50,6 +50,16 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |		my-controller/my-method	-> my_controller/my_method
 */
 $route['default_controller'] = 'home';
-$route['404_override'] = '';
+$route['404_override'] = 'errors/error404';
 $route['translate_uri_dashes'] = FALSE;
+
+/* ROUTES - HOME  */
 $route['cadastro'] = 'home/cadastro';
+$route['login'] = 'home/login';
+$route['curso/(:num)'] = 'home/curso/$1';
+
+/* ROUTES - PAINEL DO ALUNO  */
+$route['painel'] = 'painel/home';
+
+/* ROUTES - ADMIN  */
+$route['admin/logout'] = 'admin/login/logout';

@@ -1,0 +1,25 @@
+.tamImagem {
+     width: 130px;
+}
+
+
+/*  STATUS ATIVO / INATIVO - HELPER */
+.label {
+	text-align: center;
+	font-size: 15px;
+	color: #FFF;
+	font-weight: bold;
+	border-radius: 5%;
+	padding-right: 5px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	padding-left: 5px;
+}
+
+.label-ativo {
+	background-color: green;
+}
+
+.label-inativo {
+	background-color: red;
+}

@@ -11,6 +11,14 @@
     float: left;
  }
 
+ .pullf {
+     text-align: left !important;
+ }
+
+ .fontes {
+	 font-size: 20px;
+ }
+
  header .intro-text {
     padding-top: 180px;
     padding-bottom: 200px; 
@@ -29,7 +37,7 @@
 
  .navbar-custom {
     background-color: #94d0ff !important;
-    padding-top: 5px;
+    padding-top: 10px;
  }
 
  .navbar-custom .nav li a {
@@ -238,3 +246,9 @@
     margin: 0 auto;
 
 }
+
+/*  SECTION LOGIN  */
+#section-login {
+	margin-top: 20px;
+}
+

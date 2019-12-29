@@ -1,4 +1,6 @@
-
+body {
+	background-color: #eee;
+}
 .card img.icone {
     width: auto;
     max-width: 170px;
@@ -8,5 +10,10 @@
 }
 
 .breadcrumb {
-    background-color: #FFF !important;
+    background-color: #eee !important;
 }
+
+.pullf {
+    text-align: left !important;
+}
+

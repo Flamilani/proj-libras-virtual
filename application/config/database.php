@@ -75,10 +75,14 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
+/* 	'hostname' => 'localhost',
+	'username' => 'u361999016_log',
+	'password' => 'libras2019',
+	'database' => 'u361999016_ead', */
 	'hostname' => 'localhost',
-	'username' => '',
+	'username' => 'root',
 	'password' => '',
-	'database' => '',
+	'database' => 'mod_ead',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,

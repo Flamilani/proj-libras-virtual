@@ -7,7 +7,7 @@
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top"> <img class="logoM" src="assets/img/logo_p.png" alt=""></a>
+                <a class="navbar-brand page-scroll" href="<?= base_url(); ?>#page-top"> <img class="logoM" src="assets/img/logo_p.png" alt=""></a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -17,19 +17,22 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#parallaxBar">Home</a>
+                        <a class="page-scroll" href="<?= base_url(); ?>#parallaxBar">Home</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#team">Quem Somos</a>
+                        <a class="page-scroll" href="<?= base_url(); ?>#team">Quem Somos</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#portfolio">Cursos</a>
+                        <a class="page-scroll" href="<?= base_url(); ?>#portfolio">Cursos</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#">Cadastro</a>
+                        <a class="page-scroll" href="<?= base_url(); ?>cadastro">Cadastro</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact">Contato</a>
+                        <a class="page-scroll" href="<?= base_url(); ?>#contact">Contato</a>
+					</li>
+					<li>
+                        <a class="page-scroll btn btn-primary" href="<?= base_url(); ?>login">Login</a>
                     </li>
                 </ul>
             </div>

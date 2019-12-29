@@ -2,7 +2,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <span class="copyright">Copyright &copy; Your Website 2016</span>
+                    <span class="copyright">Copyright &copy; Libras Virtual <?php echo date('Y'); ?></span>
                 </div>
                 <div class="col-md-4">
                     <ul class="list-inline social-buttons">
@@ -16,9 +16,10 @@
                 </div>
                 <div class="col-md-4">
                     <ul class="list-inline quicklinks">
-                        <li><a href="#">Privacy Policy</a>
-                        </li>
-                        <li><a href="#">Terms of Use</a>
+                        <li><a href="#">Política da Privacidade</a>
+						</li>
+						<li>|</li>
+                        <li><a href="#">Termos de Uso</a>
                         </li>
                     </ul>
                 </div>

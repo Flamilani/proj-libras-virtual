@@ -14,7 +14,7 @@ class Paginas extends CI_Controller {
 		$this->load->view('admin/inc/links');
 		$this->load->view('admin/inc/menu');
         $this->load->view('admin/paginas', $data);
-		$this->load->view('admin/inc/footer');
+
 		$this->load->view('admin/inc/scripts');
     }
 
@@ -25,18 +25,18 @@ class Paginas extends CI_Controller {
 		$this->load->view('admin/inc/links');
 		$this->load->view('admin/inc/menu');
         $this->load->view('admin/paginas/home', $data);
-		$this->load->view('admin/inc/footer');
+
 		$this->load->view('admin/inc/scripts');
     }
 
     public function somos() {
         
-        $data['title'] = 'Home';
+        $data['title'] = 'Quem Somos';
 		$this->load->view('admin/inc/header');
 		$this->load->view('admin/inc/links');
 		$this->load->view('admin/inc/menu');
         $this->load->view('admin/paginas/somos', $data);
-		$this->load->view('admin/inc/footer');
+		
 		$this->load->view('admin/inc/scripts');
     }
     

@@ -1,35 +1,43 @@
- 
-    </div>
-    <!-- /.content-wrapper -->
 
-  </div>
-  <!-- /#wrapper -->
- 
-  <!-- Scroll to Top Button-->
-  <a class="scroll-to-top rounded" href="#page-top">
-    <i class="fas fa-angle-up"></i>
-  </a>
-
-<!-- Bootstrap core JavaScript-->
-  <script src="<?php echo base_url('assets/dist/jquery/jquery.min.js'); ?>"></script>
-  <script src="<?php echo base_url('assets/dist/bootstrap/js/bootstrap.bundle.min.js'); ?>"></script>
-
-  <!-- Core plugin JavaScript-->
-  <script src="<?php echo base_url('assets/dist/jquery-easing/jquery.easing.min.js'); ?>"></script>
-
-  <!-- Page level plugin JavaScript-->
-  <script src="<?php echo base_url('assets/dist/chart.js/Chart.min.js'); ?>"></script>
-  <script src="<?php echo base_url('assets/dist/datatables/jquery.dataTables.js'); ?>"></script>
-  <script src="<?php echo base_url('assets/dist/datatables/dataTables.bootstrap4.js'); ?>"></script>
-
-  <!-- Custom scripts for all pages-->
-  <script src="<?php echo base_url('assets/js/sb-admin.min.js'); ?>"></script>
-
-  <!-- Demo scripts for this page-->
-  <script src="<?php echo base_url('assets/js/demo/datatables-demo.js'); ?>"></script>
-  <script src="<?php echo base_url('assets/js/demo/chart-area-demo.js'); ?>"></script>
-
-  
+<!-- jQuery -->
+<script src="<?=base_url()?>assets/plugins/jquery/jquery.min.js"></script>
+<!-- jQuery UI 1.11.4 -->
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
+<script>
+  $.widget.bridge('uibutton', $.ui.button)
+</script>
+<!-- Bootstrap 4 -->
+<script src="<?=base_url()?>assets/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- Morris.js charts -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
+<script src="<?=base_url()?>assets/plugins/morris/morris.min.js"></script>
+<!-- Sparkline -->
+<script src="<?=base_url()?>assets/plugins/sparkline/jquery.sparkline.min.js"></script>
+<!-- jvectormap -->
+<script src="<?=base_url()?>assets/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js"></script>
+<script src="<?=base_url()?>assets/plugins/jvectormap/jquery-jvectormap-world-mill-en.js"></script>
+<!-- jQuery Knob Chart -->
+<script src="<?=base_url()?>assets/plugins/knob/jquery.knob.js"></script>
+<!-- daterangepicker -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.2/moment.min.js"></script>
+<script src="<?=base_url()?>assets/plugins/daterangepicker/daterangepicker.js"></script>
+<!-- datepicker -->
+<script src="<?=base_url()?>assets/plugins/datepicker/bootstrap-datepicker.js"></script>
+<!-- Bootstrap WYSIHTML5 -->
+<script src="<?=base_url()?>assets/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js"></script>
+<!-- Slimscroll -->
+<script src="<?=base_url()?>assets/plugins/slimScroll/jquery.slimscroll.min.js"></script>
+<!-- FastClick -->
+<script src="<?=base_url()?>assets/plugins/fastclick/fastclick.js"></script>
+<!-- AdminLTE App -->
+<script src="<?=base_url()?>assets/admin/js/adminlte.js"></script>
+<!-- AdminLTE dashboard demo (This is only for demo purposes) -->
+<script src="<?=base_url()?>assets/admin/js/pages/dashboard.js"></script>
+<!-- AdminLTE for demo purposes -->
+<script src="<?=base_url()?>assets/admin/js/demo.js"></script>
+<script src="<?=base_url()?>assets/js/scripts-custom.js"></script>
+<script src="<?=base_url()?>assets/plugins/ckeditor/ckeditor.js"></script>
 </body>
-
 </html>
+

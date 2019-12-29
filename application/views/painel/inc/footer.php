@@ -1,3 +1,3 @@
-<p>
+<footer class="text-center">
     footer painel
-</p>
+</footer>
