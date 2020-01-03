@@ -19,8 +19,9 @@ class Cursos_model extends CI_Model {
 		endif;
 	            }
 
-	public function admin_modulos_curso($id) {
-		$this->db->where('curso_id', $id);
+	/* MÓDULOS */
+	public function admin_modulos_curso($curso_id) {
+		$this->db->where('curso_id', $curso_id);
 		$this->db->select('*');
 		$this->db->from('modulos');	              
 		return $this->db->get()->result();
@@ -41,5 +42,20 @@ class Cursos_model extends CI_Model {
 		else:
 		    return 0;
 		endif;
-	            }   
+	            }
+	            
+	/* AULAS */
+	public function admin_aulas_curso($curso_id, $modulo_id) {
+		$this->db->where('curso_id', $curso_id);
+		$this->db->where('modulo_id', $modulo_id);
+		$this->db->select('*');
+		$this->db->from('aulas');	              
+		return $this->db->get()->result();
+	            }
+
+	public function adicionar_aula($titulo, $curso_id) {      
+		$data['modulo_nome'] = $titulo;     
+		$data['curso_id'] = $curso_id;    
+		return $this->db->insert('modulos', $data);
+	          }
 }

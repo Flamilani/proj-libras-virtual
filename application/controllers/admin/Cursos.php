@@ -21,15 +21,16 @@ class Cursos extends CI_Controller {
         $this->load->view('admin/inc/scripts');
     }
 
-    public function modulo($id) {
-     // $this->output->enable_profiler(TRUE);
-		    $data['modulos'] = $this->cursos_model->admin_modulos_curso($id);  
-		
-        $data['title'] = 'Módulos';
-	      $this->load->view('admin/inc/header');
+	/* MÓDULOS  */
+    public function modulo($curso_id) {
+    //  $this->output->enable_profiler(TRUE);
+		    $data['modulos'] = $this->cursos_model->admin_modulos_curso($curso_id);  		
+        	$data['title'] = 'Módulos';
+	        $this->load->view('admin/inc/header');
 		    $this->load->view('admin/inc/links');
 		    $this->load->view('admin/inc/menu');
-		    $this->load->view('admin/cursos/modulos', $data);		        
+			$this->load->view('admin/cursos/modulos', $data);		
+			$this->load->view('admin/inc/footer');        
 		    $this->load->view('admin/inc/scripts');
   }
 
@@ -50,5 +51,21 @@ class Cursos extends CI_Controller {
         }
     }
 }
+
+	/* AULAS  */
+    public function aula($curso_id, $modulo_id) {
+		// $this->output->enable_profiler(TRUE);
+			   $data['aulas'] = $this->cursos_model->admin_aulas_curso($curso_id, $modulo_id);  		   
+		   	   $data['title'] = 'Aulas';
+			   $this->load->view('admin/inc/header');
+			   $this->load->view('admin/inc/links');
+			   $this->load->view('admin/inc/menu');
+			   $this->load->view('admin/cursos/aulas', $data);	
+			   $this->load->view('admin/inc/footer');	        
+			   $this->load->view('admin/inc/scripts');
+	 }
+
+
+
     
 }
